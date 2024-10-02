@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#chart {
+    width: 960px;
+    height: 570px;
+    margin: 0 auto;
+}
+
+.tile {
+    stroke: #fff;
+}
+
+.tile:hover {
+    opacity: 0.8;
+}
+
+#tooltip {
+    position: absolute;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: none;
+}
+
+#legend {
+    width: 500px;
+    height: 50px;
+    margin: 20px auto;
+}
+
+.legend-item {
+    margin: 0 5px;
+}
+
+.tile-text {
+    font-size: 9px;
+    fill: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
